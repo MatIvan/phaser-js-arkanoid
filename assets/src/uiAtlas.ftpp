@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/mnt/data/projects/phaser-js-arkanoid/assets",
+  "images": [
+    {
+      "name": "btnStart-down.png",
+      "path": "/mnt/data/projects/phaser-js-arkanoid/assets/src/btnStart-down.png",
+      "folder": ""
+    },
+    {
+      "name": "btnStart-enabled.png",
+      "path": "/mnt/data/projects/phaser-js-arkanoid/assets/src/btnStart-enabled.png",
+      "folder": ""
+    },
+    {
+      "name": "btnStart-hover.png",
+      "path": "/mnt/data/projects/phaser-js-arkanoid/assets/src/btnStart-hover.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "uiAtlas",
+    "textureFormat": "png",
+    "removeFileExtension": true,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "JSON (hash)",
+    "fileName": "pack-result",
+    "savePath": "/mnt/data/projects/phaser-js-arkanoid/assets",
+    "width": 2048,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 2,
+    "extrude": 0,
+    "allowRotation": false,
+    "allowTrim": false,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}

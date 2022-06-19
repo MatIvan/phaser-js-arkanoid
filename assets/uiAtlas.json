@@ -1,0 +1,87 @@
+{
+  "frames": {
+    "btnStart-down": {
+      "frame": {
+        "x": 2,
+        "y": 2,
+        "w": 198,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 198,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 198,
+        "h": 72
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "btnStart-enabled": {
+      "frame": {
+        "x": 204,
+        "y": 2,
+        "w": 198,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 198,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 198,
+        "h": 72
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    "btnStart-hover": {
+      "frame": {
+        "x": 406,
+        "y": 2,
+        "w": 198,
+        "h": 72
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 198,
+        "h": 72
+      },
+      "sourceSize": {
+        "w": 198,
+        "h": 72
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  },
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "uiAtlas.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 606,
+      "h": 76
+    },
+    "scale": 1
+  }
+}

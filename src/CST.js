@@ -4,5 +4,10 @@ export const CST = {
     MENU: 'MENU',
     GAME: 'GAME',
     INFO: 'INFO'
+  },
+  ASSETS: {
+    menuSceneBackround: 'menuSceneBackround',
+    uiAtlas: 'uiAtlas',
+    btnStart: 'btnStart',
   }
 }

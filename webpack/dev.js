@@ -34,11 +34,11 @@ module.exports = {
             'CANVAS_RENDERER': JSON.stringify(true),
             'WEBGL_RENDERER': JSON.stringify(true)
         }),
-		new HtmlWebpackPlugin({
-			template: "./index.html",
-			filename: "index.html",
-			inject: "body",
-		}),
+        new HtmlWebpackPlugin({
+            template: "./index.html",
+            filename: "index.html",
+            inject: "body",
+        }),
     ]
 
 };

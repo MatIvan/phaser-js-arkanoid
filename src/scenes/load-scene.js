@@ -2,17 +2,24 @@ import Phaser from "phaser";
 import { CST } from '../CST';
 import MenuScene from "../scenes/menu-scene";
 
-import logo from '../../assets/logo.png';
+import menuSceneBackround from '../../assets/menu-scene-backround.png';
+import atlasPng from '../../assets/uiAtlas.png';
+import atlasJson from '../../assets/uiAtlas.json';
 
 class LoadScene extends Phaser.Scene {
     constructor() {
         super({ key: CST.SCENES.LOAD });
     }
 
+    loadAssets() {
+        this.load.image(CST.ASSETS.menuSceneBackround, menuSceneBackround);
+        this.load.atlas(CST.ASSETS.uiAtlas, atlasPng, atlasJson);
+    }
+
     preload() {
         console.log('loading...');
 
-        this.load.image('logo', logo);
+        this.loadAssets();
 
         let loadingBar = this.add.graphics({
             fillStyle: {

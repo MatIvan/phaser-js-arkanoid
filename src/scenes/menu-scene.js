@@ -1,5 +1,6 @@
 import Phaser from "phaser";
 import { CST } from '../CST';
+import Button from "../ui/Button";
 
 class MenuScene extends Phaser.Scene {
     constructor() {
@@ -11,9 +12,19 @@ class MenuScene extends Phaser.Scene {
     }
 
     create() {
-        this.add.image(this.game.renderer.width / 2, this.game.renderer.height / 2, 'logo');
+        let uiAtlas = this.textures.get(CST.ASSETS.uiAtlas);
+
+        let back = this.add.image(0, 0, CST.ASSETS.menuSceneBackround);
+        back.setOrigin(0, 0);
+
+        let btn = new Button(this, 408, 404, uiAtlas, CST.ASSETS.btnStart);
+        btn.onClick = () => this.actionOnClick();
+        this.add.existing(btn);
     }
 
+    actionOnClick() {
+        console.log("CLICK");
+    }
 }
 
 export default MenuScene; 
