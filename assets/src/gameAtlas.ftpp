@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "version": "0.6.7"
+  },
+  "savePath": "/home/mativ/projects/phaser-js-arkanoid/assets/src",
+  "images": [
+    {
+      "name": "ball.png",
+      "path": "/home/mativ/projects/phaser-js-arkanoid/assets/src/ball.png",
+      "folder": ""
+    },
+    {
+      "name": "bita-blue.png",
+      "path": "/home/mativ/projects/phaser-js-arkanoid/assets/src/bita-blue.png",
+      "folder": ""
+    },
+    {
+      "name": "bita-green.png",
+      "path": "/home/mativ/projects/phaser-js-arkanoid/assets/src/bita-green.png",
+      "folder": ""
+    },
+    {
+      "name": "bita-red.png",
+      "path": "/home/mativ/projects/phaser-js-arkanoid/assets/src/bita-red.png",
+      "folder": ""
+    },
+    {
+      "name": "bita-yellow.png",
+      "path": "/home/mativ/projects/phaser-js-arkanoid/assets/src/bita-yellow.png",
+      "folder": ""
+    },
+    {
+      "name": "block-1.png",
+      "path": "/home/mativ/projects/phaser-js-arkanoid/assets/src/block-1.png",
+      "folder": ""
+    },
+    {
+      "name": "block-2.png",
+      "path": "/home/mativ/projects/phaser-js-arkanoid/assets/src/block-2.png",
+      "folder": ""
+    }
+  ],
+  "folders": [],
+  "packOptions": {
+    "textureName": "gameAtlas",
+    "textureFormat": "png",
+    "removeFileExtension": true,
+    "prependFolderName": true,
+    "base64Export": false,
+    "tinify": false,
+    "tinifyKey": "",
+    "scale": 1,
+    "filter": "none",
+    "exporter": "JSON (hash)",
+    "fileName": "pack-result",
+    "savePath": "/home/mativ/projects/phaser-js-arkanoid/assets/src",
+    "width": 250,
+    "height": 2048,
+    "fixedSize": false,
+    "powerOfTwo": false,
+    "padding": 2,
+    "extrude": 0,
+    "allowRotation": false,
+    "allowTrim": false,
+    "trimMode": "trim",
+    "alphaThreshold": "0",
+    "detectIdentical": true,
+    "packer": "MaxRectsBin",
+    "packerMethod": "BestShortSideFit"
+  }
+}

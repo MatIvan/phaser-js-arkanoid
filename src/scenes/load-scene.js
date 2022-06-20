@@ -2,9 +2,12 @@ import Phaser from "phaser";
 import { CST } from '../CST';
 import MenuScene from "../scenes/menu-scene";
 
-import menuSceneBackround from '../../assets/menu-scene-backround.png';
-import atlasPng from '../../assets/uiAtlas.png';
-import atlasJson from '../../assets/uiAtlas.json';
+import menuSceneBackground from '../../assets/menu-scene-background.png';
+import gameSceneBackground from '../../assets/game-scene-background.png';
+import uiAtlasPng from '../../assets/uiAtlas.png';
+import uiAtlasJson from '../../assets/uiAtlas.json';
+import gameAtlasPng from '../../assets/gameAtlas.png';
+import gameAtlasJson from '../../assets/gameAtlas.json';
 
 class LoadScene extends Phaser.Scene {
     constructor() {
@@ -12,8 +15,10 @@ class LoadScene extends Phaser.Scene {
     }
 
     loadAssets() {
-        this.load.image(CST.ASSETS.menuSceneBackround, menuSceneBackround);
-        this.load.atlas(CST.ASSETS.uiAtlas, atlasPng, atlasJson);
+        this.load.image(CST.ASSETS.menuSceneBackground, menuSceneBackground);
+        this.load.image(CST.ASSETS.gameSceneBackground, gameSceneBackground);
+        this.load.atlas(CST.ASSETS.uiAtlas, uiAtlasPng, uiAtlasJson);
+        this.load.atlas(CST.ASSETS.gameAtlas, gameAtlasPng, gameAtlasJson);
     }
 
     preload() {

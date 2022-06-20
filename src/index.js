@@ -1,6 +1,6 @@
 import Phaser from "phaser";
 import LoadScene from './scenes/load-scene';
-// import GameScene from './scenes/game-scene';
+import GameScene from './scenes/game-scene';
 // import InfoScene from './scenes/info-scene';
 
 const config = {
@@ -13,7 +13,7 @@ const config = {
     antialias: true,
     scene: [
         LoadScene,
-        // GameScene,
+        GameScene,
         // InfoScene,
     ],
     physics: {

@@ -14,7 +14,7 @@ class MenuScene extends Phaser.Scene {
     create() {
         let uiAtlas = this.textures.get(CST.ASSETS.uiAtlas);
 
-        let back = this.add.image(0, 0, CST.ASSETS.menuSceneBackround);
+        let back = this.add.image(0, 0, CST.ASSETS.menuSceneBackground);
         back.setOrigin(0, 0);
 
         let btn = new Button(this, 408, 404, uiAtlas, CST.ASSETS.btnStart);
@@ -23,7 +23,7 @@ class MenuScene extends Phaser.Scene {
     }
 
     actionOnClick() {
-        console.log("CLICK");
+        this.scene.start(CST.SCENES.GAME);
     }
 }
 

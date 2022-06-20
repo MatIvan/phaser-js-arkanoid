@@ -6,8 +6,14 @@ export const CST = {
     INFO: 'INFO'
   },
   ASSETS: {
-    menuSceneBackround: 'menuSceneBackround',
+    menuSceneBackground: 'menuSceneBackground',
+    gameSceneBackground: 'gameSceneBackground',
     uiAtlas: 'uiAtlas',
+    gameAtlas: 'gameAtlas',
     btnStart: 'btnStart',
+
+    OBJECTS: {
+      ball: 'ball',
+    }
   }
 }
